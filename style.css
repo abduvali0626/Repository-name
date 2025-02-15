@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght,MONO@200..800,0&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body  {
+  font-family: "Sono", serif;
+  background-color: #e90901;
+  color: snow;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+ 
+header {
+    padding: 20px 0;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right p {
+  color: #30e506;
+}
+
+.shop {
+    height: 300px;
+    background-color: brown;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px; 
+}
+
+.shop button {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    border: none;
+    font-size: 90px;
+    position: relative;
+}
+
+.shop p {
+    position: absolute;
+    color: #30e506;
+    bottom: -290px;
+    margin-left: 150px;
+}
+
+.about-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px; 
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
